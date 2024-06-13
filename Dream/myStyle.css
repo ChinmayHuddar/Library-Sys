@@ -1,0 +1,96 @@
+body {
+    
+            background: radial-gradient(#00ff00,yellow);
+}
+div#header {
+            background: radial-gradient(#00ff00,yellow,red);
+            height: 200px;
+        }
+        div#nav {
+            background: radial-gradient(#00ff00,yellow,red);
+            float: left;
+            width: 250px;
+            line-height: 30px;
+            height: 650px;
+            padding: 5px;
+        }
+        div#section {
+            padding: 5px;
+            float: left;
+            padding: 5px;
+            height: 650px;
+            margin-left: 200px;
+            margin-top: 30px;
+            font-size: 30px;
+        }
+        div#section p {
+            font-size: 30px;
+        }
+        div#footer {
+            text-align: center;
+            clear: both;
+            background-color: #ff97cf;
+            line-height: 50px;
+            font-size: 30px;
+        }
+        div#header h2 {
+            font-size: 60px;
+            margin-bottom: 10px;
+            display: inline-block;
+        }
+        div#header ul {
+            padding: 0;
+            margin: 0;
+            list-style-type: none;
+        }
+        div#header ul li {
+            display: inline;
+        }
+        div#header ul li:last-child {
+           float: right;
+        }
+        div#header ul li a:link {
+            text-decoration: none;
+            width: 80px;
+            height: 40px;
+            font-size: 35px;
+            margin: 0 40px;
+        }
+        div#header ul li a:hover {
+            background-color: black;
+            color: white;
+        }
+        div#nav a:link {
+            text-decoration: none;
+            font-size: 20px;
+            display: block;
+        }
+        div#nav a:hover {
+           background-color: purple;
+            color: white;
+        }
+        
+        input[type='text'],input[type='password'],input[type='number'],input[type='email'] {
+            border: none;
+            border-bottom: 1px solid #393838;
+            font-size: 30px;
+            background-color: lightcyan;
+            width: 500px;
+        }
+        label {
+            font-size: 30px;
+        }
+        input[type='submit'] {
+            font-size: 50px;
+            width: 500px;
+           background-color: darkorange;
+            color: white;
+            border: none;
+            border-radius: 20px;
+            cursor: pointer;
+            outline: none;
+        }
+h2 {
+    font-size: 35px;
+    color: blue;
+}
